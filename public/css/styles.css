@@ -1,0 +1,560 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.active {
+    background-color: white !important;
+    color: black !important;
+    border: none !important;
+    transition: ease-in-out 0.2s !important;
+}
+
+body {
+    background-color: #404040 !important;
+    transition: ease-in-out 0.8s;
+}
+.backgroundColorBodyChecked {
+    background-color: #e3dbd4 !important;
+    transition: ease-in-out 0.8s;
+}
+
+.backgroundColorBodyUNChecked {
+    background-color: #404040 !important;
+    transition: ease-in-out 0.8s;
+}
+
+.show {
+    display: inline !important;
+}
+
+.hide {
+    display: none;
+}
+.all_contents .wallet_now {
+    background-color: red;
+}
+.all_contents .table_details div {
+    background-color: white;
+    padding: 20px;
+    display: none;
+    transition: ease-in-out 0.8s;
+}
+.all_contents .table_details button {
+    display: block;
+    background-color: rgb(163, 163, 163);
+    color: black;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+}
+/*------------------------------------------------------------------------------ start log in page */
+
+.body_login {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    position: relative;
+    animation: change 10s ease-in-out infinite;
+}
+
+@keyframes change {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}
+
+.card {
+    border-radius: 20px;
+    background-color: rgba(221, 221, 221, 0.35);
+    font-weight: bold;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, 0.322) !important;
+}
+
+.card-header {
+    font-weight: bold;
+    text-align: center;
+    font-size: 20px;
+}
+.buttons_language{
+    padding-bottom: 20px;
+    padding-top: 30px;
+    text-align: right;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        background-color: white;
+    }
+}
+
+/*------------------------------------------------------------------------------ end log in page */
+/*------------- inputs page */
+.contact1 {
+    min-height: 92.4%;
+}
+
+/*------------- end inputs page */
+/*------------------------------------------------------------------------------ start page show */
+.all_contents .container span {
+    display: block;
+    text-align: center;
+    margin: 5px 5px;
+    font-weight: bold;
+}
+
+.all_contents .container span:last-child {
+    display: block;
+    text-align: center;
+    margin: 5px 5px;
+    color: red;
+    font-weight: bold;
+}
+.all_contents .container .details:hover {
+    box-shadow: none;
+    
+}
+
+.all_contents .container .details {
+    background-color: #9a9a9c;
+    margin: 32px 5px;
+    font-weight: bold;
+    box-shadow: #808b8c -7px 7px 6px;
+    border: 2px solid white;
+    padding: 17px 0px 0px 0px;
+    color: white;
+    font-size: 17px;
+    transition: ease-in-out 0.5s;
+    max-width: 32%;
+}
+
+.all_contents .container .details .data_wallet_value {
+    text-align: center;
+    border: 2px solid #221f1f54;
+    background-color: #87a2bb8f;
+    color: white;
+}
+
+.all_contents .container .details .bubbly-button {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1em;
+    padding: 7px 4em;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #403d3f;
+    color: #fff;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    /* transition: transform ease-in 0.1s, box-shadow  */
+}
+
+.all_contents .container .details .bubbly-button:hover {
+    background-color: #ff0081;
+}
+
+.all_contents .container .details2 {
+    margin: 32px 5px;
+    text-align: center;
+}
+
+.all_contents .container .details2 span {
+    color: rgb(53, 53, 53);
+    font-weight: bold;
+    font-size: 17px;
+}
+
+.all_contents .container .details2 .bubbly-button {
+    font-family: "Helvetica", "Arial", sans-serif;
+    font-size: 1em;
+    padding: 7px 4em;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #c5c5c5;
+    border-radius: 4px;
+    cursor: pointer;
+    position: relative;
+    transition: transform ease-in 0.1s, box-shadow;
+    border: 1px solid black;
+    transition: ease-in-out 0.8s;
+    /* transition: transform ease-in 0.1s, box-shadow  */
+}
+
+.all_contents .container .details2 .bubbly-button:hover {
+    background-color: #ff0081;
+    border: none;
+}
+.all_contents .container .details2 .bubbly-button:hover span {
+    color: white;
+    font-weight: bold;
+    transition: ease-in-out 0.8s;
+}
+
+.all_contents .spe_td {
+    word-break: break-all;
+}
+@media screen and (max-width: 600px) {
+    .all_contents .container .details2 .bubbly-button {
+        padding: 5px;
+    }
+    .all_contents .spe_td {
+        word-break: break-all;
+    }
+}
+.title_wallet {
+    display: flex;
+    background-color: #212529;
+    width: 100%;
+    padding: 11px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+.title_wallet p {
+    text-align: center;
+    width: 100%;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin: auto;
+}
+
+.wallet_name {
+    display: flex;
+    gap: 10px;
+}
+.all_contents .button_wallet {
+    color: white;
+    background-color: #212529;
+    padding: 11px;
+    border-radius: 3px;
+    margin: 0px 0px 20px 0px;
+    transition: 0.8s ease-in-out;
+    width: 54%;
+}
+.all_contents .button_wallet:hover {
+    color: rgb(0, 0, 0);
+    background-color: white !important;
+    /* padding: 11px;
+    border-radius: 3px soild black;
+    margin: 0px 0px 2px 2px ; */
+}
+@media screen and (max-width: 600px) {
+    .all_contents .container .details {
+        min-width: 100%;
+        margin: 10px 0px;
+    }
+    /*------------------------- start dropdown*/
+    .dropdown-item {
+        color: white !important;
+    }
+    /*------------------------- end dropdown*/
+}
+
+/*------------------------------------------------------------------------------ end page show */
+/*------------- end inputs page */
+/* ------------- end enter_model_wallet */
+/* .enter_wallet{
+ width: 100%;
+ min-height: 92.4%;
+    
+}
+.custom_button{
+  text-align: center;
+  
+}
+#modal_fly{
+  animation: flyIn 0.5s linear;
+}
+
+.modal{
+  display:none;
+}
+
+@keyframes flyIn{
+  from{
+    transform: translateY(-100%);
+  }
+  to{
+    transform: translateY(0%);
+  }
+}
+
+@keyframes flyOut{
+  from{
+    transform: translateY(0%);
+  }
+  to{
+    transform: translateY(100%);
+  }
+} */
+/*------------- end enter_model_wallet */
+/*------------- strat welcome_page_wallet */
+
+#header {
+    background: url("../images/bsbild_fullhd_01.jpg") no-repeat center center;
+    background-size: cover;
+    height: 92.5vh;
+    padding: 0px;
+}
+
+#header .container {
+    background: url("../images/body-bg1.png") repeat 0 0;
+    height: 92.5vh;
+    width: 100% !important;
+    padding: 0px;
+    z-index: 998;
+}
+
+#header .col-md-8 {
+    top: 20%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    z-index: 999;
+}
+
+#header .logo {
+    margin-bottom: 15px;
+}
+
+.animation {
+    width: 100%;
+    bottom: 0;
+    height: 50px;
+    overflow: hidden;
+    position: absolute;
+    z-index: 999;
+    text-align: center;
+    text-decoration: none;
+}
+
+#header .fa-angle-down {
+    text-align: center;
+    font-size: 48px;
+    color: #fff;
+
+    -webkit-animation: leweb_fade_move_down 2s ease-in-out infinite;
+    -moz-animation: leweb_fade_move_down 2s ease-in-out infinite;
+    animation: leweb_fade_move_down 2s ease-in-out infinite;
+}
+
+/* Animated Arrow Down Header */
+
+@-webkit-keyframes leweb_fade_move_down {
+    0% {
+        -webkit-transform: translate(0, -20px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        -webkit-transform: translate(0, 20px);
+        opacity: 0;
+    }
+}
+
+@-moz-keyframes leweb_fade_move_down {
+    0% {
+        -moz-transform: translate(0, -20px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        -moz-transform: translate(0, 20px);
+        opacity: 0;
+    }
+}
+
+@keyframes leweb_fade_move_down {
+    0% {
+        transform: translate(0, -20px);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: translate(0, 20px);
+        opacity: 0;
+    }
+}
+
+/*------------- end welcome_page_wallet */
+
+/*------------- start button in page  welcome_page_wallet */
+
+/* only animate if the device supports hover */
+@media (hover: hover) {
+    #creditcard {
+        /*  set start position */
+        transform: translateY(110px);
+        transition: transform 0.1s ease-in-out;
+        /*  set transition for mouse enter & exit */
+    }
+
+    #money {
+        /*  set start position */
+        transform: translateY(180px);
+        transition: transform 0.1s ease-in-out;
+        /*  set transition for mouse enter & exit */
+    }
+
+    button:hover #creditcard {
+        transform: translateY(0px);
+        transition: transform 0.2s ease-in-out;
+        /*  overide transition for mouse enter */
+    }
+
+    button:hover #money {
+        transform: translateY(0px);
+        transition: transform 0.3s ease-in-out;
+        /*  overide transition for mouse enter */
+    }
+}
+
+@keyframes bounce {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-0.25rem);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+.button:hover .button__text span {
+    transform: translateY(-0.25rem);
+    transition: transform 0.2s ease-in-out;
+}
+
+/* styling */
+
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&display=swap");
+
+.button {
+    border: none;
+    outline: none;
+    background-color: purple;
+    padding: 1rem 90px 1rem 2rem;
+    position: relative;
+    border-radius: 8px;
+    letter-spacing: 0.7px;
+    background-color: #5086bd87;
+    color: #fff;
+    font-size: 21px;
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+    box-shadow: rgba(0, 9, 61, 0.2) 0px 4px 8px 0px;
+}
+
+.button:active {
+    transform: translateY(1px);
+}
+
+.button__svg {
+    position: absolute;
+    overflow: visible;
+    bottom: 6px;
+    right: 0.2rem;
+    height: 140%;
+}
+
+/*------------- end button in page  welcome_page_wallet */
+
+/*------------- start button search in page selectall*/
+
+.search {
+    width: 60%;
+    position: relative;
+}
+
+.searchTerm {
+    width: 60%;
+    border: 3px solid #00b4cc;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9dbfaf;
+}
+
+.searchTerm:focus {
+    color: #00b4cc;
+}
+
+.searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00b4cc;
+    background: #00b4cc;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap {
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.live_search_forDetails {
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+.live_search_forDetails input {
+    width: 60%;
+    border: 3px solid #00b4cc;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9dbfaf;
+}
+.live_search_forDetails .icon_live_search_forDetails {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00b4cc;
+    background: #00b4cc;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+}
+/*------------- end button search in page selectall */
